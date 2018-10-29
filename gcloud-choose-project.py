@@ -110,8 +110,6 @@ projects_list = sorted(projects_list, key=lambda k: k['project_id'])
 current_project = get_current_project()
 
 # Print projects available list
-print("{} maxlen".format(max_element_length(projects_list, 'project_id')))
-
 print("================================================================================")
 print(" Projects available")
 print("================================================================================")
